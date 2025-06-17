@@ -41,34 +41,10 @@ All resources are **parameterized** using Terraform `variables.tf`, and outputs 
 
 ---
 
-## 🛠️ 4. Terraform Structure
-terraform-aws-3tier-architecture/
-│
-├── modules/ # Modularized Terraform code
-│ ├── vpc/
-│ ├── ec2/
-│ ├── rds/
-│ ├── alb/
-│ └── security-groups/
-│
-├── main.tf # Root Terraform configuration
-├── variables.tf # Input variables
-├── outputs.tf # Output variables
-├── provider.tf # AWS provider & region config
-└── README.md # Project documentation
-
-
 Each module is designed for **clean separation of responsibilities**, making the code reusable and easier to scale.
 
 ---
 
-## ✅ 5. Summary: What This Project Demonstrates
-
-> 🧠 This project shows practical knowledge in designing, automating, and securing cloud environments.  
-> ⚙️ It reflects real-world workflows, modular Terraform best practices, and AWS architectural depth.  
-> 💼 Suitable for Cloud Engineering, DevOps, and Infrastructure-focused roles.
-
----
 
 
 
